@@ -1,5 +1,10 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css';
+import Inventario from "./Vistas/inventario";
+import SignIn from "./Vistas/vistaLogIn";
+
+
 
 function App() {
   return (
